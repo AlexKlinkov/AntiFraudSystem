@@ -26,7 +26,7 @@ Check out my profile: https://hyperskill.org/profile/445879089
 11. Get Maximum Value Transaction by Card Number: Accepts a GET request to **"/api/antifraud/transaction/max_value/{cardNumber}"** with the card number and retrieves the maximum value transaction for the specified card number.
       
 # Schema of BD
-![Schema_OF_BD](https://github.com/AlexKlinkov/AntiFraudSystem/blob/master/schema_of_BD.jpg](https://github.com/AlexKlinkov/AntiFraudSystem/blob/master/schema_of_BD.jpg)
+![Schema_OF_BD](https://github.com/AlexKlinkov/AntiFraudSystem/blob/master/schema_of_BD.jpg)
 
 # Manual to launch app using IntelliJ IDEA no low then 2022.1.4 version (there is necessary ultimate version)
 1. Open the project in IntelliJ IDEA.
