@@ -29,8 +29,9 @@ Check out my profile: https://hyperskill.org/profile/445879089
 ![Schema_OF_BD](https://github.com/AlexKlinkov/AntiFraudSystem/blob/master/schema_of_BD.jpg)
 
 # Manual to launch app using IntelliJ IDEA no low then 2022.1.4 version (there is necessary ultimate version)
-1. Open the project in IntelliJ IDEA.
-2. Go over to **build.gradle** file for compiling project
+1. Open the project in IntelliJ IDEA and go over to **AntiFraudApplication.java** for choosing JDK, press **Setup SDK** and using **jbr-17 JetBrains Runtime version 17.0.7**
+2. Go over to **Settings** for compiling project (on the left corner of IntelliJ IDEA chose **File** and press **Settings** and there configure like on the screenshot^
+   ![image](https://github.com/AlexKlinkov/AntiFraudSystem/assets/97181431/b238191c-2187-4f3a-b6ce-a5017a0a2147)
 3. Locate the main class (This is AntiFraudApplication.java).
 4. Right-click on the main class and select **"Run"** or use the **Shift+F10** shortcut.
 5. The application will be executed, and the output will be displayed in the console.
