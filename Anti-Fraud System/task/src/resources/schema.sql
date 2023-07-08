@@ -4,7 +4,7 @@ create table if not exists users
     name     varchar (100),
     username varchar unique (100),
     password varchar (50),
-    role     varchar,
+    role     varchar (20),
     locked   boolean
 );
 
