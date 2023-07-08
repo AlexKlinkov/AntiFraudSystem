@@ -30,7 +30,7 @@ Check out my profile: https://hyperskill.org/profile/445879089
 * 11. Get Maximum Value Transaction by Card Number: Accepts a GET request to **"/api/antifraud/transaction/max_value/{cardNumber}"** with the card number and retrieves the maximum value transaction for the specified card number.
       
 # Schema of BD
-*
+![(https://github.com/AlexKlinkov/AntiFraudSystem/blob/master/schema_of_BD.jpg)]
 
 # Stack of technology:
 * Java: Java 17
