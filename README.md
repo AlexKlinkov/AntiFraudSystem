@@ -30,9 +30,10 @@ Check out my profile: https://hyperskill.org/profile/445879089
 
 # Manual to launch app using IntelliJ IDEA no low then 2022.1.4 version (there is necessary ultimate version)
 1. Open the project in IntelliJ IDEA.
-2. Locate the main class (This is AntiFraudApplication.java).
-3. Right-click on the main class and select **"Run"** or use the **Shift+F10** shortcut.
-4. The application will be executed, and the output will be displayed in the console.
+2. Go over to **build.gradle** file for compiling project
+3. Locate the main class (This is AntiFraudApplication.java).
+4. Right-click on the main class and select **"Run"** or use the **Shift+F10** shortcut.
+5. The application will be executed, and the output will be displayed in the console.
 
 # Postman collection of queries for testing app
 1. Open Postman (desktop version) or download it before (https://www.postman.com/downloads)
