@@ -8,13 +8,17 @@ Here's the link to the project: https://hyperskill.org/projects/232
 Check out my profile: https://hyperskill.org/profile/445879089
 
 * Description of main app features
+
 ** UserController:
+
 *** 1. Register User: Accepts a POST request to "/api/auth/user" with user details and registers a new user in the system. Returns the registration status.
 *** 2. Get Users: Accepts a GET request to "/api/auth/list" and retrieves a list of all users in the system.
 *** 3. Delete User: Accepts a DELETE request to "/api/auth/user/{username}" and deletes the user with the specified username from the system.
 *** 4. Update User Role: Accepts a PUT request to "/api/auth/role" with user details and updates the role of the user in the system.
 *** 5. Set User Account Status: Accepts a PUT request to "/api/auth/access" with user details and sets the account status (locked/unlocked) of the user in the system.
+
 ** TransactionController:
+
 *** 1. Submit Transaction: Accepts a POST request to "/api/antifraud/transaction" with transaction details and processes the transaction. Returns the result of the transaction.
 *** 2. Get Transaction History: Accepts a GET request to "/api/antifraud/history" and retrieves the transaction history.
 *** 3. Get Transaction History by Card Number: Accepts a GET request to "/api/antifraud/history/{number}" with the card number and retrieves the transaction history for the specified card number.
