@@ -32,6 +32,11 @@ Check out my profile: https://hyperskill.org/profile/445879089
 # Schema of BD
 ![Schema_OF_BD](https://github.com/AlexKlinkov/AntiFraudSystem/blob/master/schema_of_BD.jpg)
 
+# Postman collection of queries for testing app
+1. Open Postman (desktop version) or download it before ![postman](https://www.postman.com/downloads)
+2. Import the file with queries ![postman_collection_with_test_queries]()
+3. Run the query from the first to the last sequently (Data Base doesn't drop after reboot app, so that's mean that repeat query is send can invoke exception, for example to avoid of it you can delete data base before repeat launch app)
+
 # Stack of technology:
 * Java: Java 17
 * Gradle: Gradle version 7.x.x
