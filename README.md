@@ -10,7 +10,6 @@ Check out my profile: https://hyperskill.org/profile/445879089
 # Description of main app features
 
 ## UserController:
-
 * 1. Register User: Accepts a POST request to "/api/auth/user" with user details and registers a new user in the system. Returns the registration status.
 * 2. Get Users: Accepts a GET request to "/api/auth/list" and retrieves a list of all users in the system.
 * 3. Delete User: Accepts a DELETE request to "/api/auth/user/{username}" and deletes the user with the specified username from the system.
@@ -18,18 +17,20 @@ Check out my profile: https://hyperskill.org/profile/445879089
 * 5. Set User Account Status: Accepts a PUT request to "/api/auth/access" with user details and sets the account status (locked/unlocked) of the user in the system.
 
 ## TransactionController:
-
-* 1. Submit Transaction: Accepts a POST request to "/api/antifraud/transaction" with transaction details and processes the transaction. Returns the result of the transaction.
-* 2. Get Transaction History: Accepts a GET request to "/api/antifraud/history" and retrieves the transaction history.
-* 3. Get Transaction History by Card Number: Accepts a GET request to "/api/antifraud/history/{number}" with the card number and retrieves the transaction history for the specified card number.
-* 4. Add Transaction Feedback: Accepts a PUT request to "/api/antifraud/transaction" with transaction feedback details and adds the feedback to the transaction.
-* 5. Save Suspicious IP Address: Accepts a POST request to "/api/antifraud/suspicious-ip" with the IP address details and saves the suspicious IP address.
-* 6. Delete Suspicious IP Address: Accepts a DELETE request to "/api/antifraud/suspicious-ip/{ip}" and deletes the suspicious IP address with the specified IP.
-* 7. Get Suspicious IP Addresses: Accepts a GET request to "/api/antifraud/suspicious-ip" and retrieves the list of suspicious IP addresses.
-* 8. Save Stolen Card: Accepts a POST request to "/api/antifraud/stolencard" with stolen card details and saves the stolen card information.
-* 9. Delete Stolen Card: Accepts a DELETE request to "/api/antifraud/stolencard/{number}" and deletes the stolen card with the specified card number.
-* 10. Get Stolen Cards: Accepts a GET request to "/api/antifraud/stolencard" and retrieves the list of stolen cards.
-* 11. Get Maximum Value Transaction by Card Number: Accepts a GET request to "/api/antifraud/transaction/max_value/{cardNumber}" with the card number and retrieves the maximum value transaction for the specified card number.
+* 1. Submit Transaction: Accepts a POST request to **"/api/antifraud/transaction"** with transaction details and processes the transaction. Returns the result of the transaction.
+* 2. Get Transaction History: Accepts a GET request to **"/api/antifraud/history"** and retrieves the transaction history.
+* 3. Get Transaction History by Card Number: Accepts a GET request to **"/api/antifraud/history/{number}"** with the card number and retrieves the transaction history for the specified card number.
+* 4. Add Transaction Feedback: Accepts a PUT request to **"/api/antifraud/transaction"** with transaction feedback details and adds the feedback to the transaction.
+* 5. Save Suspicious IP Address: Accepts a POST request to **"/api/antifraud/suspicious-ip"** with the IP address details and saves the suspicious IP address.
+* 6. Delete Suspicious IP Address: Accepts a DELETE request to **"/api/antifraud/suspicious-ip/{ip}"** and deletes the suspicious IP address with the specified IP.
+* 7. Get Suspicious IP Addresses: Accepts a GET request to **"/api/antifraud/suspicious-ip"** and retrieves the list of suspicious IP addresses.
+* 8. Save Stolen Card: Accepts a POST request to **"/api/antifraud/stolencard"** with stolen card details and saves the stolen card information.
+* 9. Delete Stolen Card: Accepts a DELETE request to **"/api/antifraud/stolencard/{number}"** and deletes the stolen card with the specified card number.
+* 10. Get Stolen Cards: Accepts a GET request to **"/api/antifraud/stolencard"** and retrieves the list of stolen cards.
+* 11. Get Maximum Value Transaction by Card Number: Accepts a GET request to **"/api/antifraud/transaction/max_value/{cardNumber}"** with the card number and retrieves the maximum value transaction for the specified card number.
+      
+# Schema of BD
+*
 
 # Stack of technology:
 * Java: Java 17
