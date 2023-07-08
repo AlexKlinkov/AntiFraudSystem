@@ -44,8 +44,8 @@ Check out my profile: https://hyperskill.org/profile/445879089
 3. Run the query from the first to the last sequently (Data Base doesn't drop after reboot app, so that's mean that repeat query is send can invoke exception, for example to avoid of it you can delete data base before repeat launch app)
 
 # Stack of technology:
-* Java: Java 17
-* Gradle: Gradle version 7.x.x
+* Java 17
+* Gradle: Gradle version 7.6
 * Spring Boot: Spring Boot version 2.6.3
 * Spring Dependency Management: Spring Dependency Management version 1.0.11.RELEASE
 * H2 Database: H2 version 1.4.200
