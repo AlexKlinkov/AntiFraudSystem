@@ -1,9 +1,9 @@
 create table if not exists users
 (
     id       bigint primary key,
-    name     varchar,
-    username varchar,
-    password varchar,
+    name     varchar (100),
+    username varchar unique (100),
+    password varchar (50),
     role     varchar,
     locked   boolean
 );
@@ -11,30 +11,30 @@ create table if not exists users
 create table if not exists suspicious_ip_address
 (
     id bigint primary key,
-    ip varchar
+    ip varchar unique (20)
 );
 
 create table if not exists stolen_card
 (
     id     bigint primary key,
-    number varchar
+    number varchar unique (16)
 );
 
 create table if not exists transaction_info
 (
     id          bigint primary key,
     amount      bigint,
-    ip          varchar,
-    number      varchar,
-    region      varchar,
+    ip          varchar (20),
+    number      varchar (16),
+    region      varchar (10),
     createdDate date,
-    result      varchar
+    result      varchar (20)
 );
 
 create table if not exists transaction_feetback
 (
     transactionId bigint REFERENCES transaction_info (id),
-    feedback varchar,
+    feedback varchar (50),
     PRIMARY KEY (transactionId, feedback)
 )
 
